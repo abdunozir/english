@@ -1,0 +1,45 @@
+.homePage {
+  height: 100vh;
+  padding-top: 10px;
+  gap: 20px;
+}
+
+.homePage button {
+  display: block;
+  margin: 440px auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #bfbfbf;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px #bfbfbf;
+  transition: 0.4s;
+}
+
+.homePage button:hover {
+  background-color: #bfbfbf8a;
+  transform: skew(0deg, 0deg);
+  box-shadow: none;
+}
+
+@media (max-width: 797px) {
+  .homePage button {
+    margin: 420px auto;
+  }
+}
+@media (max-width: 600px) {
+  .homePage button {
+    margin: 400px auto;
+  }
+}
+@media (max-width: 500px) {
+  .homePage button {
+    margin: 380px auto;
+  }
+}
+@media (max-width: 400px) {
+  .homePage button {
+    margin: 370px auto;
+    padding: 20px 40px;
+    font-size: 20px;
+  }
+}
